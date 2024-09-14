@@ -291,7 +291,7 @@ body {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
-    width: 75%;
+    width: 60%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
@@ -311,11 +311,11 @@ body {
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
-    width: 87%;
+    width: 75%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
-    width: 75%;
+    width: 60%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
@@ -902,13 +902,13 @@ span {
     margin: 100px 0 0 170px;
     border: 7px solid #ffffff50;
     float: right;
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    animation: morph 6s ease-in-out infinite;
+    border-radius: 60%;
+    
 
     background-size: cover;
     background: #08aeea50 no-repeat top -10px center;
     background-blend-mode: multiply;
-    animation: morph 6s ease-in-out infinite;
+    
 }
 
 @keyframes morph {
