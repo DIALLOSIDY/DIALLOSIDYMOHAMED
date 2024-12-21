@@ -33,15 +33,7 @@ html {
 
 body {
     color: var(--text-color);
-    background-image: linear-gradient(90deg, transparent 0%, transparent 88%,rgba(200, 200, 200,0.07) 88%,
-    rgba(200, 200, 200,0.07) 93%,transparent 93%, transparent 100%),
-    linear-gradient(135deg, transparent 0%, transparent 83%,
-    rgba(200, 200, 200,0.07) 83%, rgba(200, 200, 200,0.07) 91%,transparent 91%,
-    transparent 100%),linear-gradient(0deg, transparent 0%, transparent 43%,
-    rgba(200, 200, 200,0.07) 43%, rgba(200, 200, 200,0.07) 50%,transparent 50%,
-    transparent 100%),linear-gradient(135deg, transparent 0%, transparent 16%,
-    rgba(200, 200, 200,0.07) 16%, rgba(200, 200, 200,0.07) 56%,transparent 56%, transparent 100%),
-    linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+    background-color: #054c5d;
 }
 
 .header {
@@ -188,18 +180,7 @@ body {
 }
 
 
-::-webkit-scrollbar{
-    width: 15px;
-}
 
-::-webkit-scrollbar-thumb{
-    background-color: var(--main-color);
-}
-
-::-webkit-scrollbar-track{
-    background-color: var(--bg-color);
-    width: 50px;
-}
 
 
 /**********FIN**************/
@@ -510,7 +491,7 @@ body {
 :root {
     --primary: #18253c;
     /* --primary: #fff; */
-    --secondary: #00dd53;
+    --secondary: #06BB7B;
     --bg: #0e1523;
     /* --bg: #f5f5f5; */
 }
@@ -547,13 +528,12 @@ body {
 }
 
 .card:hover {
-    border: .1rem solid var(--secondary);
+    border: .1rem solid var();
 }
 
 .card::before, .card::after {
     position: absolute;
     content: "";
-    background-color: var(--secondary);
     border-radius: 50%;
     transition: .5s ease-in-out;
     z-index: 1;
